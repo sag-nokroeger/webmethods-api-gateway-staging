@@ -13,9 +13,9 @@ trigger: none
 
 variables:
 - name: tenant
-  ${{ if startsWith(variables['Build.DefinitionName'], 'wm_test_apigw_staging') }}:
+  ${{ if startsWith(variables['Build.DefinitionName'], 'wm_test_apigw') }}:
     value: playground
-  ${{ if startsWith(variables['Build.DefinitionName'], 'wm_apigw_staging') }}:
+  ${{ if startsWith(variables['Build.DefinitionName'], 'wm_apigw') }}:
     value: realworld
 - name: targetType
   ${{ if endsWith(variables['Build.DefinitionName'], 'config') }}:

@@ -9,9 +9,9 @@ trigger: none
 #   default: 'DEV-INT'
 
 variables:
-  ${{ if startsWith(variables['Build.DefinitionName'], 'wm_test_apigw_staging') }}:
+  ${{ if startsWith(variables['Build.DefinitionName'], 'wm_test_apigw') }}:
     tenant: playground
-  ${{ if startsWith(variables['Build.DefinitionName'], 'wm_apigw_staging') }}:
+  ${{ if startsWith(variables['Build.DefinitionName'], 'wm_apigw') }}:
     tenant: realworld
   ${{ if endsWith(variables['Build.DefinitionName'], 'config') }}:
     targetType: CONFIG
