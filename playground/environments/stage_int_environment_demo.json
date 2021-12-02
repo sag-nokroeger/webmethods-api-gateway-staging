@@ -4,13 +4,13 @@
 	"values": [
 		{
 			"key": "hostname",
-			"value": "thesstageint.gateway.webmethodscloud.de",
+			"value": "env548393.gateway.webmethodscloud.de",
 			"type": "text",
 			"enabled": true
 		},
 		{
 			"key": "ip",
-			"value": "thesstageint.gateway.webmethodscloud.de",
+			"value": "env548393.gateway.webmethodscloud.de",
 			"type": "text",
 			"enabled": true
 		},
