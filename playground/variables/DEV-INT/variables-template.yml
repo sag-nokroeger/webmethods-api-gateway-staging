@@ -1,4 +1,4 @@
 # Variable template for apig staging
 
 variables:
-- group: wm_test_environment_dev_int
+- group: wm_test_environment_dev_intern

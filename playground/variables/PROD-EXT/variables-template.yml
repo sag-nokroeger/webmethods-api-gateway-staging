@@ -1,4 +1,4 @@
 # Variable template for apig staging
 
 variables:
-- group: wm_test_environment_prod_ext
+- group: wm_test_environment_prod_extern
