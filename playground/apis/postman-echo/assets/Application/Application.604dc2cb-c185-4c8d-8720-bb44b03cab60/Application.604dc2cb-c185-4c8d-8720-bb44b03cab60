@@ -7,12 +7,12 @@
   "contactEmails" : [ ],
   "accessTokens" : {
     "apiAccessKey" : {
-      "apiAccessKey" : "2ba9a4ab2d87e6bf2203d7d9b1bfd6f354921f7bba067495b86953039d1ef21c"
+      "apiAccessKey" : "********************************"
     }
   },
   "creationDate" : "2021-02-03 16:31:52 GMT",
   "lastModified" : "2021-06-23 14:01:32 GMT",
-  "lastUpdated" : 1624456892183,
+  "lastUpdated" : 1638527650548,
   "siteURLs" : [ ],
   "jsOrigins" : [ ],
   "version" : "1.0",
@@ -20,9 +20,9 @@
   "isSuspended" : true,
   "authStrategyIds" : [ ],
   "primaryNode" : {
-    "hostId" : "c246199d-44bc-4253-8396-db33c4d58b8d",
+    "hostId" : "b8204b15-fd89-433f-959d-659c03739914",
     "replica" : 0
   },
-  "subscription" : false,
-  "shell" : false
+  "shell" : false,
+  "subscription" : false
 }
