@@ -4,13 +4,13 @@
 	"values": [
 		{
 			"key": "hostname",
-			"value": "env684501.gateway.webmethodscloud.de",
+			"value": "env684501.apigw-aw-eu.webmethods.io",
 			"type": "text",
 			"enabled": true
 		},
 		{
 			"key": "ip",
-			"value": "env684501.gateway.webmethodscloud.de",
+			"value": "env684501.apigw-aw-eu.webmethods.io",
 			"type": "text",
 			"enabled": true
 		},
