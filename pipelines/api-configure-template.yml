@@ -57,6 +57,7 @@ steps:
   displayName: 'Prepare list of scopes to be imported'
 
 - script: |
+    echo ${{parameters.tenant}}/environments/${{parameters.environment}}
     newman run utilities/import/ImportConfig.json --reporters cli \
     --env-var importer_user='$(importer_user)' \
     --env-var importer_password='$(importer_password)' \
